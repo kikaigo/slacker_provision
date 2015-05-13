@@ -1,0 +1,13 @@
+Host slack1
+    HostName ip_address_1
+    User ops
+    IdentityFile ~/.ssh/id_rsa_slack
+    ServerAliveInterval 60
+    ServerAliveCountMax 30
+
+Host slack2
+    HostName ip_address_2
+    User ops
+    IdentityFile ~/.ssh/id_rsa_slack
+    ServerAliveInterval 60
+    ServerAliveCountMax 30

@@ -1,0 +1,7 @@
+---
+    php_ppa: php5-5.6
+    doc_root: /srv/www
+    git_deploy_repo: https://github.com/thrawn/slacker.git
+    sys_packages: ["git","htop","iotop","fail2ban","vim","imagemagick"]
+    dist: precise
+    php_packages: ["php5-cli","php5-imagick","php5-common","php5-gd","php5-mcrypt"]

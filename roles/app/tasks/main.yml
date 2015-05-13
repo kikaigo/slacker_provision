@@ -1,0 +1,10 @@
+---
+# application tasks run after provisioning
+#
+#
+# remove old stuff from previous deploy
+- file: path=/srv/www state=absent
+
+#  deploy
+- git: repo={{ git_deploy_repo }}
+       dest=/srv/www

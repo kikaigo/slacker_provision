@@ -3,7 +3,7 @@
   sudo: True
   vars:
     web_server: nginxphp
-    servername: _ 192.168.33.99
+    servername: _
     timezone: UTC
   vars_files:
     - vars/common.yml

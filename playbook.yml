@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: machines
   sudo: True
   vars:
     web_server: nginxphp
